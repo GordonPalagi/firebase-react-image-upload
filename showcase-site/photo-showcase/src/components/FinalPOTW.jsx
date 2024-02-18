@@ -3,12 +3,6 @@ import "../App.css";
 
 function FinalPOTW({ potw }) {
 
-  const NewComponent = () => {
-    return (
-      <div>I'm a new component!</div>
-    )
-  }
-
   return (
     <>
 
@@ -23,7 +17,6 @@ function FinalPOTW({ potw }) {
 
           return (
             <React.Fragment key={index}>
-            {index === 0 && <NewComponent />}
 
             <div className="image-box">
               <div
