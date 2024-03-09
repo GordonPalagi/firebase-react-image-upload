@@ -5,10 +5,8 @@ import { Drawer } from '@mui/joy';
 import { ButtonGroup } from '@mui/joy';
 import { Button } from '@mui/joy';
 import { List } from '@mui/joy';
-import { Divider } from '@mui/joy';
 import { ListItem } from '@mui/joy';
 import { ListItemButton } from '@mui/joy';
-// import { RxHamburgerMenu } from "react-icons/rx";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 
@@ -49,11 +47,6 @@ function Navigation() {
       </List>
     </Box>
   );
-
-
-
-  // const location = useLocation();
-  // const { pathname } = location;
 
   
   return (
