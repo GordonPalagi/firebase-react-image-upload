@@ -16,8 +16,8 @@ function FinalPOTW({ potw }) {
                 style={{
                   flexDirection: rowReverse ? "row" : "row-reverse",
                   backgroundColor: rowReverse
-                    ? `rgb(170, ${randomPurpleColor}, 224)`
-                    : `rgb(253, ${randomGoldColor}, 224)`,
+                    ? `rgba(170, ${randomPurpleColor}, 224, .5)`
+                    : `rgba(253, ${randomGoldColor}, 224, .5)`,
                 }}
                 className="potw-image-con"
               >
@@ -30,7 +30,7 @@ function FinalPOTW({ potw }) {
                 </div>
 
                 <div className={"potw-text"}>
-                  <section>
+                  <section className="text-con">
                     <h3>
                       {image.title} by {image.name}
                     </h3>
